@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+use Sheenazien8\Konstantiq\ConstanstAbstraction;
+
+class {{ ClassName }} extends ConstanstAbstraction
+{
+}
+
