@@ -15,7 +15,7 @@ class KonstantiqCommand extends Command
     {
         $name = $this->argument('name');
 
-        if (!$name) {
+        if (! $name) {
             $name = $this->ask('What is the name of the constant class?');
         }
 
@@ -25,7 +25,7 @@ class KonstantiqCommand extends Command
 
         $path = app_path("Constants/{$name}.php");
 
-        if (!File::exists(dirname($path))) {
+        if (! File::exists(dirname($path))) {
             File::makeDirectory(dirname($path), 0755, true);
         }
 
@@ -38,7 +38,6 @@ class KonstantiqCommand extends Command
 
     protected function getStub(): string
     {
-        return __DIR__ . '/../../stubs/constant.stub';
+        return __DIR__.'/../../stubs/constant.stub';
     }
 }
-

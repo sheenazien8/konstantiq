@@ -2,9 +2,9 @@
 
 namespace Sheenazien8\Konstantiq;
 
+use Sheenazien8\Konstantiq\Commands\KonstantiqCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Sheenazien8\Konstantiq\Commands\KonstantiqCommand;
 
 class KonstantiqServiceProvider extends PackageServiceProvider
 {

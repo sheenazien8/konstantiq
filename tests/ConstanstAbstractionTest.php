@@ -4,8 +4,10 @@ use Illuminate\Support\Collection;
 use Sheenazien8\Konstantiq\ConstanstAbstraction;
 
 it('tests all', function () {
-    $mockClass = new class extends ConstanstAbstraction {
+    $mockClass = new class extends ConstanstAbstraction
+    {
         const PENDING = 'pending';
+
         const DONE = 'done';
     };
 
@@ -18,8 +20,10 @@ it('tests all', function () {
 });
 
 it('tests getTitle', function () {
-    $mockClass = new class extends ConstanstAbstraction {
+    $mockClass = new class extends ConstanstAbstraction
+    {
         const PENDING = 'pending';
+
         const DONE = 'done';
     };
 
@@ -28,8 +32,10 @@ it('tests getTitle', function () {
 });
 
 it('tests getValues', function () {
-    $mockClass = new class extends ConstanstAbstraction {
+    $mockClass = new class extends ConstanstAbstraction
+    {
         const PENDING = 'pending';
+
         const DONE = 'done';
     };
 
@@ -40,4 +46,3 @@ it('tests getValues', function () {
 
     expect($mockClass::getValues())->toEqual($expected);
 });
-

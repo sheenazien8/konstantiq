@@ -35,4 +35,3 @@ it('handles the command without argument', function () {
 
     File::delete($path);
 });
-
