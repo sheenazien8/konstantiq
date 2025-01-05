@@ -12,5 +12,3 @@ interface ConstantInterface
 
     public static function getValues(): array;
 }
-
-
