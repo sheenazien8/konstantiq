@@ -4,7 +4,7 @@
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/sheenazien8/konstantiq/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/sheenazien8/konstantiq/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/sheenazien8/konstantiq/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/sheenazien8/konstantiq/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/sheenazien8/konstantiq.svg?style=flat-square)](https://packagist.org/packages/sheenazien8/konstantiq)
-[![Laravel Compatibility](https://badge.laravel.cloud/badge/sheenazien8/konstantiq?style=for-the-badge)](https://packagist.org/packages/sheenazien8/konstantiq)
+[![Laravel Compatibility](https://badge.laravel.cloud/badge/sheenazien8/konstantiq?style=flat)](https://packagist.org/packages/sheenazien8/konstantiq)
 
 This is a simple package that helps you manage your constant values. The root cause of this library is that sometimes you need the status in the view or the API response, but you have more than one status. You can look at the example below.
 
